@@ -1,0 +1,135 @@
+form .avatar_config {
+    display: block;
+    /* margin-left: 20%; */
+    width: 150px;
+}
+
+.navbar .container-avatar {
+    /* display: block ; */
+    /* margin-left: 20%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 900px;
+    overflow: hidden;
+}
+.public_image .container-avatar {
+    /* display: block ; */
+    /* margin-left: 20%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 900px;
+    overflow: hidden;
+}
+
+.navbar .container-avatar .avatar_config {
+    height: 100%;
+}
+
+.public_image .avatar_config {
+    height: 100%;
+}
+.public_image .container-avatar {
+    float: left;
+    margin-right: 20px;
+}
+.public_image .data-user {
+    font-weight: bold;
+    line-height: 40px;
+}
+.public_image .data-user a{
+    color:#444; 
+}
+
+.elemento_avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.compartir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* max-height: 600px; */
+    /* height: 50vh; */
+}
+
+.compartir .compartir_image {
+    max-width: 100%;
+}
+
+.card-body {
+    padding: 0px;
+}
+
+.nickname {
+    color: rgb(69, 69, 69);
+    font-family: "Courier New", Courier, monospace;
+    font-size: large;
+}
+ .date{
+
+    font-size: small;
+
+}
+.description {
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+.description .p_description {
+    color: rgb(69, 69, 69);
+}
+
+.public_image .btn-comentario {
+    margin: 20px;
+    margin-top: 0px;
+}
+.likes {
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.likes img {
+    width: 20px;
+}
+
+
+.comentarios{
+    padding: 2vh;
+    padding-top: 0vh;
+}
+.comentarios .textarea_comentario {
+    border-radius: 2vh;
+    width: 98%; 
+    /* margin-left: auto;
+   margin-right: auto; */
+   margin: auto;
+
+}
+.boton_comentar{
+    margin-top: 1vh;
+    margin-left: 10px;
+    margin-bottom: 1vh;
+    /* padding: 1vh; */
+}
+ /* .comentarios{
+    
+ } */
